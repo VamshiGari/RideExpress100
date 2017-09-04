@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/RideXpress" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Aruna\\Desktop\\ProjectXpress\\RideXpress\\RideXpress\\RideXpress\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Aruna\\Desktop\\ProjectXpress\\RideXpress\\RideXpress\\RideXpress\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="RideXpressConnectionString-Web.config Connection String" description="" value="Data Source=ARUNA-HP;Initial Catalog=RideXpress;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Aruna\\Desktop\\ProjectXpress\\RideXpress\\RideXpress\\RideXpress\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RideXpressConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="RideXpressConnectionString2-Web.config Connection String" description="" value="Data Source=ARUNA-HP;Initial Catalog=RideXpress;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Aruna\\Desktop\\ProjectXpress\\RideXpress\\RideXpress\\RideXpress\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RideXpressConnectionString2']/@connectionString" />
+  </parameter>
+</parameters>
